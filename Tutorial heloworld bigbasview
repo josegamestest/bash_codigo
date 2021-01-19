@@ -1,0 +1,23 @@
+Para vriar uma aplicacao basica
+
+cria um arquivo chamado com extencao .sh
+
+"nomedoarquivo.sh"
+
+depois escreve a primeira linha
+!#/bin/bash
+
+depois o helowordl
+
+echo "heloworld"
+
+depois torne o app executavel escrevendo no termnal
+os seguinte commando com o nome do app
+
+
+chmod +x nomedoarquivo.sh
+chmod 777 nomedoarquivo.sh
+
+Execute o programa pelo temina chamando 
+
+bigbashview /diretoriodoarquivo/nomedoarquivo.sh
