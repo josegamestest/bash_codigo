@@ -1,0 +1,6 @@
+#!/bin/bash
+# Script José Anastácio 
+DATA_HORA=$(date +%Y-%m-%d-%HH-%MM)
+DESTINO=local_de destino
+
+zip -r $DESTINO-$DATA_HORA.zip compactador
