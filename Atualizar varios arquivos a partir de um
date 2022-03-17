@@ -1,0 +1,3 @@
+O comando abaixo buscar um arquivo chamado LICENSE.txt em todas as pastas do sistema abaixo do diretorio que o terminal ja esta apontando 
+entao lgo a frente execupa o comando de copia de arqivo cp-r para cada uma das pastas
+find . -iname "*LICENSE.txt" -exec cp -r /home/josea/LICENSE.txt {} \;
