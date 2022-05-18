@@ -1,0 +1,4 @@
+renomea todos os arquivos .png num diretorio que tenha o nome default_ incluso automaticamente,
+mantendo parte do nome original, porem removendo os 8 characters descritos como default_?
+
+Code  $ rename -f 's/default_//' *.png
