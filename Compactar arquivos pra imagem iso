@@ -1,6 +1,7 @@
-Insata o pacote "genisoimage" que geralmente já vem instalado em muitas distribuições Linux.
-mkisofs -o imagem.iso /caminho/para/diretorio/
-mkisofs -o imagem.iso arquivo.ext
+Insata o pacote genisoimage ou xorriso, que geralmente já vem instalado em muitas distribuições Linux.
+
+"genisoimage -o arquivo.iso diretório/" --Criando uma iso de um direto
+"mkisofs -o imagem.iso /caminho/para/diretorio/ " --criando uma iso de um arquico em um diretorio 
 
 Para mais detalhes
 mkisofs -help
