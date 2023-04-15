@@ -1,7 +1,20 @@
 Insata o pacote genisoimage ou xorriso, que geralmente já vem instalado em muitas distribuições Linux.
 
 "genisoimage -o arquivo.iso diretório/" --Criando uma iso de um direto
+
+Exemplo
+"genisoimage -iso-level 3 -udf -o nome-da-imagem.iso /dev/dvd"
+
+"-iso-level 3": define o nível de compatibilidade ISO a ser usado na criação da imagem. Nível 3 é o mais recente e inclui extensões para suportar nomes de arquivo mais longos.
+"-r": inclui todas as permissões de leitura e mantém as permissões dos arquivos da imagem.
+"-udf": cria um sistema de arquivos UDF (Universal Disk Format) além do sistema de arquivos ISO padrão. Isso permite que a imagem seja lida por sistemas operacionais modernos que suportam o UDF.
+"-o nome-da-imagem.iso": define o nome da imagem ISO que será criada.
+"/dev/dvd": especifica a unidade de CD/DVD a ser usada como origem da imagem.
+
+
 "mkisofs -o imagem.iso /caminho/para/diretorio/ " --criando uma iso de um arquico em um diretorio 
+
+
 
 Para mais detalhes
 mkisofs -help
