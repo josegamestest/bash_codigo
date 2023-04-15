@@ -1,0 +1,7 @@
+Insata o pacote "genisoimage" que geralmente já vem instalado em muitas distribuições Linux.
+mkisofs -o imagem.iso /caminho/para/diretorio/
+mkisofs -o imagem.iso arquivo.ext
+
+Para mais detalhes
+mkisofs -help
+genisoimage
